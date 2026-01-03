@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECS_CLUSTER: crm-cluster
-  ECS_SERVICE: objective-service
-  ECS_TASK_DEFINITION: objective-task
-  CONTAINER_NAME: objective-service
-  DOCKER_IMAGE: aledve/objective-service
+  ECS_CLUSTER: smart-parking-cluster
+  ECS_SERVICE: tariff-service
+  ECS_TASK_DEFINITION: tariff-task
+  CONTAINER_NAME: tariff-service
+  DOCKER_IMAGE: aledve/tariff-service
   DOCKER_TAG: latest
 
 jobs:
