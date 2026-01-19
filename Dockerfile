@@ -7,6 +7,6 @@ RUN gradle bootJar
 
 # Stage 2: Run
 FROM eclipse-temurin:21-jre
-COPY --from=build /app/*.jar /app/objective-service.jar
+COPY --from=build /app/*.jar /app/tariff-service.jar
 WORKDIR /app
-CMD ["java", "-jar", "objective-service.jar"]
+CMD ["java", "-jar", "tariff-service.jar"]
