@@ -3,7 +3,7 @@ server:
   port: 10061
 spring:
   application:
-    name: objective-service
+    name: tariff-service
   neo4j:
     uri: ${NEO4J_URI}
     authentication:
