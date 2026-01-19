@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ObjectiveServiceApplication {
+public class TariffServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ObjectiveServiceApplication.class, args);
+        SpringApplication.run(TariffServiceApplication.class, args);
     }
 
 }
